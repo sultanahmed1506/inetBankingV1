@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test getting started ]]>
+    </line>
+    <line>
+      <![CDATA[Setting done and Test can be started ]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed and Extent Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="\inetBankingV1" duration-ms="7771" started-at="2020-02-26T18:06:25Z" finished-at="2020-02-26T18:06:33Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="7771" started-at="2020-02-26T18:06:25Z" finished-at="2020-02-26T18:06:33Z">
+      <class name="com.inetbanking.testCases.TC_loginTest_001">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.inetbanking.testCases.TC_loginTest_001@1a968a59]" name="setUpSuite" is-config="true" duration-ms="196" started-at="2020-02-26T18:06:25Z" finished-at="2020-02-26T18:06:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test getting started ]]>
+            </line>
+            <line>
+              <![CDATA[Setting done and Test can be started ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_loginTest_001@1a968a59]" name="setup" is-config="true" duration-ms="5683" started-at="2020-02-26T18:06:25Z" finished-at="2020-02-26T18:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inetBankingLoginTest()[pri:0, instance:com.inetbanking.testCases.TC_loginTest_001@1a968a59]" name="inetBankingLoginTest" duration-ms="1091" started-at="2020-02-26T18:06:31Z" finished-at="2020-02-26T18:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inetBankingLoginTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.inetbanking.testCases.TC_loginTest_001@1a968a59]" name="tearDownMethod" is-config="true" duration-ms="976" started-at="2020-02-26T18:06:32Z" finished-at="2020-02-26T18:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inetBankingLoginTest status=SUCCESS method=TC_loginTest_001.inetBankingLoginTest()[pri:0, instance:com.inetbanking.testCases.TC_loginTest_001@1a968a59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed and Extent Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_loginTest_001@1a968a59]" name="tearDown" is-config="true" duration-ms="865" started-at="2020-02-26T18:06:33Z" finished-at="2020-02-26T18:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_loginTest_001 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- \inetBankingV1 -->
+</testng-results>
