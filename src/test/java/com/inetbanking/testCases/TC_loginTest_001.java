@@ -9,7 +9,7 @@ public class TC_loginTest_001 extends BaseClass {
 	@Test
 	public void inetBankingLoginTest() {
 
-		logger.info("URL Opened");
+		logger.info("URL inetBanking website Opened");
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
 		logger.info("Entered Username");
@@ -18,14 +18,14 @@ public class TC_loginTest_001 extends BaseClass {
 
 		lp.clickSubmit();
 
-		logger1 = report.createTest("Login To inetBanking");
+		logger1 = report.createTest("Login To inetBankingV1");
 		String actualurl = "GTPL Bank Manager HomePage";
 		String expectedurl = driver.getTitle();
 
 		if (actualurl.equalsIgnoreCase(expectedurl)) {
-			logger1.info("Passed, Login");
+			logger1.info("Sucessful login");
 		} else {
-			logger1.info("Failed, Login");
+			logger1.info("Failed Login");
 		}
 
 		/*
